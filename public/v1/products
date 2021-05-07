@@ -1,0 +1,1575 @@
+{
+  "products": [
+    {
+      "id": "toll",
+      "title": "Audio Conferencing",
+      "title_full": null,
+      "rates": [
+        2255
+      ],
+      "currency": "$",
+      "payment_type": "mo",
+      "shown": true,
+      "current_rates": [
+        2255
+      ],
+      "default_rate": 2255,
+      "options": {},
+      "priority": 20,
+      "exist_on_signup": true,
+      "custom_price": false,
+      "multiple_rates_allowed": false,
+      "is_premium": false,
+      "show_badge": true,
+      "allow_unsubscribe": false,
+      "enabled": true,
+      "title_translation": "products.toll_title",
+      "title_translation_full": "products.toll_title_full",
+      "subscription_id": 242828
+    },
+    {
+      "id": "screen_sharing",
+      "title": "Online Meeting",
+      "title_full": null,
+      "rates": [
+        2997
+      ],
+      "currency": "$",
+      "payment_type": "screen-sharing",
+      "shown": true,
+      "current_rates": [
+        2997
+      ],
+      "default_rate": 2997,
+      "options": {},
+      "priority": 40,
+      "exist_on_signup": true,
+      "custom_price": false,
+      "multiple_rates_allowed": false,
+      "is_premium": false,
+      "show_badge": true,
+      "allow_unsubscribe": false,
+      "enabled": true,
+      "title_translation": "products.screen_sharing_title",
+      "title_translation_full": "products.screen_sharing_title_full",
+      "subscription_id": 242828
+    },
+    {
+      "id": "toll_free",
+      "title": "Toll Free Audio",
+      "title_full": null,
+      "rates": [
+        2573
+      ],
+      "currency": "¢",
+      "payment_type": "per-min-caller",
+      "shown": true,
+      "current_rates": [],
+      "default_rate": 2573,
+      "options": {
+        "suspend": true
+      },
+      "priority": 70,
+      "exist_on_signup": true,
+      "custom_price": false,
+      "multiple_rates_allowed": false,
+      "is_premium": true,
+      "show_badge": null,
+      "allow_unsubscribe": true,
+      "enabled": false,
+      "title_translation": "products.toll_free_title",
+      "title_translation_full": "products.toll_free_title_full",
+      "subscription_id": 242828
+    },
+    {
+      "id": "one_number",
+      "title": "One Number",
+      "title_full": null,
+      "rates": [
+        3216
+      ],
+      "currency": "$",
+      "payment_type": "mo",
+      "shown": true,
+      "current_rates": [
+        3216
+      ],
+      "default_rate": 3216,
+      "options": {
+        "configure": true
+      },
+      "priority": 10,
+      "exist_on_signup": false,
+      "custom_price": false,
+      "multiple_rates_allowed": false,
+      "is_premium": true,
+      "show_badge": null,
+      "allow_unsubscribe": true,
+      "enabled": true,
+      "title_translation": "products.one_number_title",
+      "title_translation_full": "products.one_number_title_full",
+      "subscription_id": 242828
+    },
+    {
+      "id": "conference_greeting",
+      "title": "Custom Greeting",
+      "title_full": null,
+      "rates": [
+        3316
+      ],
+      "currency": "$",
+      "payment_type": "mo",
+      "shown": true,
+      "current_rates": [
+        3316
+      ],
+      "default_rate": 3316,
+      "options": {
+        "custom_url": null,
+        "version": "default"
+      },
+      "priority": 90,
+      "exist_on_signup": false,
+      "custom_price": false,
+      "multiple_rates_allowed": false,
+      "is_premium": true,
+      "show_badge": null,
+      "allow_unsubscribe": true,
+      "enabled": true,
+      "title_translation": "products.conference_greeting_title",
+      "title_translation_full": "products.conference_greeting_title_full",
+      "subscription_id": 242828
+    },
+    {
+      "id": "conference_moh",
+      "title": "Custom Hold Music",
+      "title_full": null,
+      "rates": [
+        4082
+      ],
+      "currency": "$",
+      "payment_type": "mo",
+      "shown": true,
+      "current_rates": [
+        4082
+      ],
+      "default_rate": 4082,
+      "options": {
+        "custom_url": "https://qa-rec.freeconferencecall.com/storage/sgetFCC2/as/u/O_ivC3jADfxR9gx1t1La8Fg.mp3",
+        "version": "custom"
+      },
+      "priority": 100,
+      "exist_on_signup": false,
+      "custom_price": false,
+      "multiple_rates_allowed": false,
+      "is_premium": true,
+      "show_badge": null,
+      "allow_unsubscribe": true,
+      "enabled": true,
+      "title_translation": "products.conference_moh_title",
+      "title_translation_full": "products.conference_moh_title_full",
+      "subscription_id": 242828
+    },
+    {
+      "id": "keywords",
+      "title": "Conference Keywords - Advanced",
+      "title_full": null,
+      "rates": [
+        3517
+      ],
+      "currency": "$",
+      "payment_type": "mo",
+      "shown": true,
+      "current_rates": [],
+      "default_rate": 3517,
+      "options": {},
+      "priority": 100,
+      "exist_on_signup": false,
+      "custom_price": false,
+      "multiple_rates_allowed": false,
+      "is_premium": true,
+      "show_badge": null,
+      "allow_unsubscribe": true,
+      "enabled": false,
+      "title_translation": "products.keywords_title",
+      "title_translation_full": "products.keywords_title_full",
+      "subscription_id": 242828
+    },
+    {
+      "id": "extra_storage",
+      "title": "Extra Storage",
+      "title_full": null,
+      "rates": [
+        2334,
+        3857,
+        2374,
+        4197,
+        3656,
+        2275
+      ],
+      "currency": "$",
+      "payment_type": "storage",
+      "shown": true,
+      "current_rates": [],
+      "default_rate": 2334,
+      "options": {
+        "visible": true,
+        "storage_available": "6.13GB",
+        "storage_available_": 6274,
+        "storage_capacity": "10GB",
+        "storage_capacity_": 10240,
+        "percentage": 38.73
+      },
+      "priority": 110,
+      "exist_on_signup": true,
+      "custom_price": false,
+      "multiple_rates_allowed": false,
+      "is_premium": true,
+      "show_badge": null,
+      "allow_unsubscribe": true,
+      "enabled": false,
+      "title_translation": "products.extra_storage_title",
+      "title_translation_full": "products.extra_storage_title_full",
+      "subscription_id": 242828
+    },
+    {
+      "id": "basic_storage",
+      "title": "Storage - 1GB",
+      "title_full": null,
+      "rates": [],
+      "currency": "$",
+      "payment_type": "mo",
+      "shown": true,
+      "current_rates": [],
+      "default_rate": null,
+      "options": {},
+      "priority": 120,
+      "exist_on_signup": true,
+      "custom_price": false,
+      "multiple_rates_allowed": false,
+      "is_premium": false,
+      "show_badge": null,
+      "allow_unsubscribe": false,
+      "enabled": true,
+      "title_translation": "products.basic_storage_title",
+      "title_translation_full": "products.basic_storage_title_full",
+      "subscription_id": 242828
+    },
+    {
+      "id": "broadcaster",
+      "title": "Broadcaster",
+      "title_full": null,
+      "rates": [],
+      "currency": "$",
+      "payment_type": "mo",
+      "shown": false,
+      "current_rates": [],
+      "default_rate": null,
+      "options": {},
+      "priority": 170,
+      "exist_on_signup": false,
+      "custom_price": false,
+      "multiple_rates_allowed": false,
+      "is_premium": false,
+      "show_badge": null,
+      "allow_unsubscribe": false,
+      "enabled": true,
+      "title_translation": "products.broadcaster_title",
+      "title_translation_full": "products.broadcaster_title_full",
+      "subscription_id": 242828
+    },
+    {
+      "id": "premium_toll",
+      "title": "Premium Toll",
+      "title_full": "Premium Toll Phone Numbers",
+      "rates": [
+        3696,
+        3716,
+        3717,
+        3762,
+        4220,
+        4523,
+        3718,
+        4245,
+        4247,
+        4118
+      ],
+      "currency": "$",
+      "payment_type": "per-month-min-caller",
+      "shown": true,
+      "current_rates": [
+        3718,
+        4220
+      ],
+      "default_rate": null,
+      "options": {},
+      "priority": 30,
+      "exist_on_signup": true,
+      "custom_price": false,
+      "multiple_rates_allowed": true,
+      "is_premium": true,
+      "show_badge": null,
+      "allow_unsubscribe": null,
+      "enabled": true,
+      "title_translation": "products.premium_toll_title",
+      "title_translation_full": "products.premium_toll_title_full",
+      "subscription_id": 242828
+    },
+    {
+      "id": "pay_what_you_can",
+      "title": "Pay What You Can",
+      "title_full": "Pay What You Can",
+      "rates": [
+        4520,
+        4337,
+        4322,
+        4321,
+        3776,
+        4459,
+        4323
+      ],
+      "currency": "$",
+      "payment_type": "mo",
+      "shown": true,
+      "current_rates": [],
+      "default_rate": 3776,
+      "options": {},
+      "priority": 250,
+      "exist_on_signup": false,
+      "custom_price": true,
+      "multiple_rates_allowed": false,
+      "is_premium": true,
+      "show_badge": null,
+      "allow_unsubscribe": null,
+      "enabled": false,
+      "title_translation": "products.pay_what_you_can_title",
+      "title_translation_full": "products.pay_what_you_can_title_full",
+      "subscription_id": 242828
+    },
+    {
+      "id": "softphone",
+      "title": "Soft Phone",
+      "title_full": "Soft Phone",
+      "rates": [
+        3997,
+        3798,
+        3877,
+        3797
+      ],
+      "currency": "$",
+      "payment_type": "softphone",
+      "shown": true,
+      "current_rates": [
+        3877
+      ],
+      "default_rate": 3797,
+      "options": {
+        "softphone_voicemail": null,
+        "softphone_callforwarding": "on",
+        "softphone_callforwarding_number": "+11234567097",
+        "softphone_callforwarding_schedule": "on",
+        "softphone_callforwarding_schedule_start": 1600333200,
+        "softphone_callforwarding_schedule_end": 1600330980,
+        "custom_url": "https://qa-rec.freeconferencecall.com/storage/sgetFCC2/as/u/8pO5oWnPK8I_ZYsTleexNVw.mp3",
+        "version": "default"
+      },
+      "priority": 85,
+      "exist_on_signup": true,
+      "custom_price": false,
+      "multiple_rates_allowed": false,
+      "is_premium": true,
+      "show_badge": null,
+      "allow_unsubscribe": null,
+      "enabled": true,
+      "title_translation": "products.softphone_title",
+      "title_translation_full": "products.softphone_title_full",
+      "subscription_id": 242828
+    },
+    {
+      "id": "bundle",
+      "title": "Bundle",
+      "title_full": "Bundle",
+      "rates": [
+        4320,
+        4318
+      ],
+      "currency": "$",
+      "payment_type": "bundle",
+      "shown": true,
+      "current_rates": [
+        4318
+      ],
+      "default_rate": 4318,
+      "options": {},
+      "priority": 5,
+      "exist_on_signup": false,
+      "custom_price": false,
+      "multiple_rates_allowed": false,
+      "is_premium": true,
+      "show_badge": null,
+      "allow_unsubscribe": null,
+      "enabled": true,
+      "title_translation": "products.bundle_title",
+      "title_translation_full": "products.bundle_title_full",
+      "subscription_id": 242828
+    },
+    {
+      "id": "video",
+      "title": "Video",
+      "title_full": null,
+      "rates": [],
+      "currency": "$",
+      "payment_type": "mo",
+      "shown": true,
+      "current_rates": [],
+      "default_rate": null,
+      "options": {},
+      "priority": null,
+      "exist_on_signup": false,
+      "custom_price": false,
+      "multiple_rates_allowed": false,
+      "is_premium": false,
+      "show_badge": null,
+      "allow_unsubscribe": false,
+      "enabled": true,
+      "title_translation": "products.video_title",
+      "title_translation_full": "products.video_title_full",
+      "subscription_id": 242828
+    }
+  ],
+  "rates": [
+    {
+      "id": 2997,
+      "attributes": {
+        "conference_maxcalls": "1000"
+      },
+      "country_id": null,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 0,
+      "price_per_unit": 0,
+      "product": "screen_sharing",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "monthly",
+      "status": "active",
+      "title": "1,000 participants - free",
+      "trial": false
+    },
+    {
+      "id": 2255,
+      "attributes": {
+        "conference_maxcalls": "1000"
+      },
+      "country_id": null,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 0,
+      "price_per_unit": 0,
+      "product": "toll",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "never",
+      "status": "active",
+      "title": "Free",
+      "trial": false
+    },
+    {
+      "id": 2374,
+      "attributes": {
+        "sku": "sub.extra_storage.40gb.month",
+        "max_storage_size": "40960"
+      },
+      "country_id": null,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 1000,
+      "price_per_unit": 0,
+      "product": "extra_storage",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "monthly",
+      "status": "inactive",
+      "title": "40GB - $10/mo",
+      "trial": false
+    },
+    {
+      "id": 2573,
+      "attributes": {
+        "conference_maxcalls": "1000"
+      },
+      "country_id": null,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 0,
+      "price_per_unit": 3.9,
+      "product": "toll_free",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "never",
+      "status": "inactive",
+      "title": "3.9¢/min",
+      "trial": false
+    },
+    {
+      "id": 2275,
+      "attributes": {
+        "sku": "sub.extra_storage.20gb.month",
+        "max_storage_size": "20480"
+      },
+      "country_id": null,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 500,
+      "price_per_unit": 0,
+      "product": "extra_storage",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "monthly",
+      "status": "inactive",
+      "title": "20GB - $5/mo",
+      "trial": false
+    },
+    {
+      "id": 2334,
+      "attributes": {
+        "sku": "sub.extra_storage.10gb.month",
+        "max_storage_size": "10240"
+      },
+      "country_id": null,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 300,
+      "price_per_unit": 0,
+      "product": "extra_storage",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "monthly",
+      "status": "inactive",
+      "title": "10GB - $3/mo",
+      "trial": false
+    },
+    {
+      "id": 3216,
+      "attributes": {},
+      "country_id": null,
+      "currency_code": "USD",
+      "effective_date": 1622519999,
+      "expiry_date": null,
+      "price": 0,
+      "price_per_unit": 0,
+      "product": "one_number",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "never",
+      "status": "pending_active",
+      "title": "Free",
+      "trial": false
+    },
+    {
+      "id": 3316,
+      "attributes": {},
+      "country_id": null,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 0,
+      "price_per_unit": 0,
+      "product": "conference_greeting",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "never",
+      "status": "active",
+      "title": "Free",
+      "trial": false
+    },
+    {
+      "id": 3517,
+      "attributes": {},
+      "country_id": null,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 700,
+      "price_per_unit": 0,
+      "product": "keywords",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "monthly",
+      "status": "inactive",
+      "title": "$7/mo",
+      "trial": false
+    },
+    {
+      "id": 4082,
+      "attributes": {},
+      "country_id": null,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 0,
+      "price_per_unit": 0,
+      "product": "conference_moh",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "never",
+      "status": "active",
+      "title": "Free",
+      "trial": false
+    },
+    {
+      "id": 4322,
+      "attributes": {
+        "pwyc": "premium"
+      },
+      "country_id": null,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 1000,
+      "price_per_unit": 0,
+      "product": "pay_what_you_can",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "monthly",
+      "status": "inactive",
+      "title": "Monthly Contribution - $10/mo",
+      "trial": false
+    },
+    {
+      "id": 4459,
+      "attributes": {
+        "pwyc": "minimal"
+      },
+      "country_id": null,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 100,
+      "price_per_unit": 0,
+      "product": "pay_what_you_can",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "monthly",
+      "status": "inactive",
+      "title": "Monthly Contribution - $1/mo",
+      "trial": false
+    },
+    {
+      "id": 4523,
+      "attributes": {},
+      "country_id": 206,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 0,
+      "price_per_unit": 5,
+      "product": "premium_toll",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "monthly",
+      "status": "inactive",
+      "title": "TW Toll - $0/mo 5c/min",
+      "trial": false
+    },
+    {
+      "id": 3798,
+      "attributes": {
+        "softphone_countries": [
+          {
+            "id": "usa",
+            "country_id": 1,
+            "type": "all"
+          }
+        ],
+        "sku": "sub.softphone.us_unlimited.month",
+        "softphone_class_of_service": "3",
+        "softphone_mms_max": "1000",
+        "softphone": "domestic",
+        "softphone_sms_max": "2000"
+      },
+      "country_id": null,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 900,
+      "price_per_unit": 0,
+      "product": "softphone",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "monthly",
+      "status": "inactive",
+      "title": "Unlimited US - $9/mo",
+      "trial": false
+    },
+    {
+      "id": 4197,
+      "attributes": {
+        "sku": "sub.extra_storage.1000gb.month",
+        "max_storage_size": "1024000"
+      },
+      "country_id": null,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 10000,
+      "price_per_unit": 0,
+      "product": "extra_storage",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "monthly",
+      "status": "inactive",
+      "title": "1TB - $100/mo",
+      "trial": false
+    },
+    {
+      "id": 4245,
+      "attributes": {},
+      "country_id": 35,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 100,
+      "price_per_unit": 1,
+      "product": "premium_toll",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "monthly",
+      "status": "inactive",
+      "title": "VN Toll - $1/mo 2c/min",
+      "trial": false
+    },
+    {
+      "id": 4247,
+      "attributes": {},
+      "country_id": 87,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 135,
+      "price_per_unit": 3.1,
+      "product": "premium_toll",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "monthly",
+      "status": "inactive",
+      "title": "CN Toll - $1.35/mo 3.1c/min",
+      "trial": false
+    },
+    {
+      "id": 3716,
+      "attributes": {},
+      "country_id": 182,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 125,
+      "price_per_unit": 0,
+      "product": "premium_toll",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "monthly",
+      "status": "inactive",
+      "title": "PH Toll - $1.25/mo 2c/min",
+      "trial": false
+    },
+    {
+      "id": 3717,
+      "attributes": {},
+      "country_id": 31,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 345,
+      "price_per_unit": 4,
+      "product": "premium_toll",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "monthly",
+      "status": "inactive",
+      "title": "KR Toll - $3.45/mo 4c/min",
+      "trial": false
+    },
+    {
+      "id": 3718,
+      "attributes": {},
+      "country_id": 208,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 195,
+      "price_per_unit": 2.7,
+      "product": "premium_toll",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "monthly",
+      "status": "active",
+      "title": "TH Toll - $1.95/mo 2.7c/min",
+      "trial": false
+    },
+    {
+      "id": 3797,
+      "attributes": {
+        "softphone": "free"
+      },
+      "country_id": null,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 0,
+      "price_per_unit": 0,
+      "product": "softphone",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "never",
+      "status": "inactive",
+      "title": "$0/mo",
+      "trial": false
+    },
+    {
+      "id": 4118,
+      "attributes": {},
+      "country_id": 128,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 0,
+      "price_per_unit": 0,
+      "product": "premium_toll",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "monthly",
+      "status": "inactive",
+      "title": "IN Toll - 0/mo 0/min",
+      "trial": false
+    },
+    {
+      "id": 4520,
+      "attributes": {
+        "pwyc": "complete"
+      },
+      "country_id": null,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 700,
+      "price_per_unit": 0,
+      "product": "pay_what_you_can",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "monthly",
+      "status": "inactive",
+      "title": "Monthly Contribution - $7/mo",
+      "trial": false
+    },
+    {
+      "id": 3762,
+      "attributes": {},
+      "country_id": 229,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 145,
+      "price_per_unit": 3.4,
+      "product": "premium_toll",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "monthly",
+      "status": "inactive",
+      "title": "HK Toll - $1.45/mo 3.4c/min",
+      "trial": false
+    },
+    {
+      "id": 3776,
+      "attributes": {
+        "pwyc": "custom"
+      },
+      "country_id": null,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 500000,
+      "price_per_unit": 0,
+      "product": "pay_what_you_can",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "monthly",
+      "status": "inactive",
+      "title": "Monthly Contribution",
+      "trial": false
+    },
+    {
+      "id": 4220,
+      "attributes": {},
+      "country_id": 148,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 0,
+      "price_per_unit": 5,
+      "product": "premium_toll",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "monthly",
+      "status": "active",
+      "title": "MK Toll - $0/mo 5c/min",
+      "trial": false
+    },
+    {
+      "id": 4318,
+      "attributes": {
+        "sku": "sub.huddle.complete.month",
+        "bundle": "complete_huddle",
+        "bundle_rotation": "premium"
+      },
+      "country_id": null,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 700,
+      "price_per_unit": 0,
+      "product": "bundle",
+      "promotion_days": 29,
+      "rates": [
+        3316,
+        3216,
+        4082,
+        4078
+      ],
+      "recurrent_charge_type": "monthly",
+      "status": "active",
+      "title": "Huddle Individual Complete - $7/mo 1mo trial",
+      "trial": false
+    },
+    {
+      "id": 3656,
+      "attributes": {
+        "sku": "sub.extra_storage.80gb.month",
+        "max_storage_size": "81920"
+      },
+      "country_id": null,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 2000,
+      "price_per_unit": 0,
+      "product": "extra_storage",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "monthly",
+      "status": "inactive",
+      "title": "80GB - $20/mo",
+      "trial": false
+    },
+    {
+      "id": 4321,
+      "attributes": {
+        "pwyc": "basic"
+      },
+      "country_id": null,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 400,
+      "price_per_unit": 0,
+      "product": "pay_what_you_can",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "monthly",
+      "status": "inactive",
+      "title": "Monthly Contribution - $4/mo",
+      "trial": false
+    },
+    {
+      "id": 3857,
+      "attributes": {
+        "sku": "sub.extra_storage.160gb.month",
+        "max_storage_size": "163840"
+      },
+      "country_id": null,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 4000,
+      "price_per_unit": 0,
+      "product": "extra_storage",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "monthly",
+      "status": "inactive",
+      "title": "160Gb - $40/mo",
+      "trial": false
+    },
+    {
+      "id": 3877,
+      "attributes": {
+        "softphone_countries": [
+          {
+            "id": "arf",
+            "country_id": 59,
+            "type": "fixed"
+          },
+          {
+            "id": "atf",
+            "country_id": 6,
+            "type": "fixed"
+          },
+          {
+            "id": "brf",
+            "country_id": 15,
+            "type": "fixed"
+          },
+          {
+            "id": "bgf",
+            "country_id": 34,
+            "type": "fixed"
+          },
+          {
+            "id": "caa",
+            "country_id": 18,
+            "type": "all"
+          },
+          {
+            "id": "cla",
+            "country_id": 86,
+            "type": "all"
+          },
+          {
+            "id": "cna",
+            "country_id": 87,
+            "type": "all"
+          },
+          {
+            "id": "coa",
+            "country_id": 90,
+            "type": "all"
+          },
+          {
+            "id": "hrf",
+            "country_id": 39,
+            "type": "fixed"
+          },
+          {
+            "id": "dkf",
+            "country_id": 41,
+            "type": "fixed"
+          },
+          {
+            "id": "def",
+            "country_id": 4,
+            "type": "fixed"
+          },
+          {
+            "id": "gra",
+            "country_id": 21,
+            "type": "all"
+          },
+          {
+            "id": "huf",
+            "country_id": 38,
+            "type": "fixed"
+          },
+          {
+            "id": "ina",
+            "country_id": 128,
+            "type": "all"
+          },
+          {
+            "id": "ief",
+            "country_id": 5,
+            "type": "fixed"
+          },
+          {
+            "id": "ilf",
+            "country_id": 30,
+            "type": "fixed"
+          },
+          {
+            "id": "itf",
+            "country_id": 10,
+            "type": "fixed"
+          },
+          {
+            "id": "jpf",
+            "country_id": 14,
+            "type": "fixed"
+          },
+          {
+            "id": "luf",
+            "country_id": 146,
+            "type": "fixed"
+          },
+          {
+            "id": "myf",
+            "country_id": 23,
+            "type": "fixed"
+          },
+          {
+            "id": "mxa",
+            "country_id": 27,
+            "type": "all"
+          },
+          {
+            "id": "nlf",
+            "country_id": 11,
+            "type": "fixed"
+          },
+          {
+            "id": "nof",
+            "country_id": 32,
+            "type": "fixed"
+          },
+          {
+            "id": "pea",
+            "country_id": 181,
+            "type": "all"
+          },
+          {
+            "id": "plf",
+            "country_id": 22,
+            "type": "fixed"
+          },
+          {
+            "id": "ptf",
+            "country_id": 12,
+            "type": "fixed"
+          },
+          {
+            "id": "rof",
+            "country_id": 13,
+            "type": "fixed"
+          },
+          {
+            "id": "sga",
+            "country_id": 47,
+            "type": "all"
+          },
+          {
+            "id": "skf",
+            "country_id": 49,
+            "type": "fixed"
+          },
+          {
+            "id": "kra",
+            "country_id": 31,
+            "type": "all"
+          },
+          {
+            "id": "esf",
+            "country_id": 8,
+            "type": "fixed"
+          },
+          {
+            "id": "sef",
+            "country_id": 40,
+            "type": "fixed"
+          },
+          {
+            "id": "usa",
+            "country_id": 1,
+            "type": "all"
+          },
+          {
+            "id": "vef",
+            "country_id": 220,
+            "type": "fixed"
+          }
+        ],
+        "softphone_class_of_service": "4",
+        "softphone_mms_max": "1000",
+        "softphone": "international",
+        "softphone_sms_max": "3000"
+      },
+      "country_id": null,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": 1622519999,
+      "price": 1500,
+      "price_per_unit": 0,
+      "product": "softphone",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "monthly",
+      "status": "pending_cancel",
+      "title": "Unlimited International",
+      "trial": false
+    },
+    {
+      "id": 4337,
+      "attributes": {
+        "pwyc": "pro"
+      },
+      "country_id": null,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 600,
+      "price_per_unit": 0,
+      "product": "pay_what_you_can",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "monthly",
+      "status": "inactive",
+      "title": "Monthly Contribution - $6/mo",
+      "trial": false
+    },
+    {
+      "id": 3696,
+      "attributes": {},
+      "country_id": 18,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 0,
+      "price_per_unit": 2,
+      "product": "premium_toll",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "monthly",
+      "status": "inactive",
+      "title": "CA Toll - $0/mo 2c/min",
+      "trial": false
+    },
+    {
+      "id": 3997,
+      "attributes": {
+        "softphone_countries": [
+          {
+            "id": "arf",
+            "country_id": 59,
+            "type": "fixed"
+          },
+          {
+            "id": "atf",
+            "country_id": 6,
+            "type": "fixed"
+          },
+          {
+            "id": "brf",
+            "country_id": 15,
+            "type": "fixed"
+          },
+          {
+            "id": "bgf",
+            "country_id": 34,
+            "type": "fixed"
+          },
+          {
+            "id": "caa",
+            "country_id": 18,
+            "type": "all"
+          },
+          {
+            "id": "cla",
+            "country_id": 86,
+            "type": "all"
+          },
+          {
+            "id": "cna",
+            "country_id": 87,
+            "type": "all"
+          },
+          {
+            "id": "coa",
+            "country_id": 90,
+            "type": "all"
+          },
+          {
+            "id": "hrf",
+            "country_id": 39,
+            "type": "fixed"
+          },
+          {
+            "id": "dkf",
+            "country_id": 41,
+            "type": "fixed"
+          },
+          {
+            "id": "def",
+            "country_id": 4,
+            "type": "fixed"
+          },
+          {
+            "id": "gra",
+            "country_id": 21,
+            "type": "all"
+          },
+          {
+            "id": "huf",
+            "country_id": 38,
+            "type": "fixed"
+          },
+          {
+            "id": "ina",
+            "country_id": 128,
+            "type": "all"
+          },
+          {
+            "id": "ief",
+            "country_id": 5,
+            "type": "fixed"
+          },
+          {
+            "id": "ilf",
+            "country_id": 30,
+            "type": "fixed"
+          },
+          {
+            "id": "itf",
+            "country_id": 10,
+            "type": "fixed"
+          },
+          {
+            "id": "jpf",
+            "country_id": 14,
+            "type": "fixed"
+          },
+          {
+            "id": "luf",
+            "country_id": 146,
+            "type": "fixed"
+          },
+          {
+            "id": "myf",
+            "country_id": 23,
+            "type": "fixed"
+          },
+          {
+            "id": "mxa",
+            "country_id": 27,
+            "type": "all"
+          },
+          {
+            "id": "nlf",
+            "country_id": 11,
+            "type": "fixed"
+          },
+          {
+            "id": "nof",
+            "country_id": 32,
+            "type": "fixed"
+          },
+          {
+            "id": "pea",
+            "country_id": 181,
+            "type": "all"
+          },
+          {
+            "id": "plf",
+            "country_id": 22,
+            "type": "fixed"
+          },
+          {
+            "id": "ptf",
+            "country_id": 12,
+            "type": "fixed"
+          },
+          {
+            "id": "rof",
+            "country_id": 13,
+            "type": "fixed"
+          },
+          {
+            "id": "sga",
+            "country_id": 47,
+            "type": "all"
+          },
+          {
+            "id": "skf",
+            "country_id": 49,
+            "type": "fixed"
+          },
+          {
+            "id": "kra",
+            "country_id": 31,
+            "type": "all"
+          },
+          {
+            "id": "esf",
+            "country_id": 8,
+            "type": "fixed"
+          },
+          {
+            "id": "sef",
+            "country_id": 40,
+            "type": "fixed"
+          },
+          {
+            "id": "usa",
+            "country_id": 1,
+            "type": "all"
+          },
+          {
+            "id": "vef",
+            "country_id": 220,
+            "type": "fixed"
+          },
+          {
+            "id": "aua",
+            "country_id": 17,
+            "type": "all"
+          },
+          {
+            "id": "bea",
+            "country_id": 7,
+            "type": "all"
+          },
+          {
+            "id": "fim",
+            "country_id": 33,
+            "type": "mobile"
+          },
+          {
+            "id": "fra",
+            "country_id": 3,
+            "type": "all"
+          },
+          {
+            "id": "hka",
+            "country_id": 229,
+            "type": "all"
+          },
+          {
+            "id": "ruf",
+            "country_id": 43,
+            "type": "fixed"
+          },
+          {
+            "id": "chf",
+            "country_id": 9,
+            "type": "fixed"
+          },
+          {
+            "id": "trf",
+            "country_id": 42,
+            "type": "fixed"
+          },
+          {
+            "id": "gba",
+            "country_id": 2,
+            "type": "all"
+          }
+        ],
+        "softphone_class_of_service": "5",
+        "softphone_mms_max": "1000",
+        "softphone": "international",
+        "softphone_sms_max": "3000"
+      },
+      "country_id": null,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 2000,
+      "price_per_unit": 0,
+      "product": "softphone",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "monthly",
+      "status": "inactive",
+      "title": "Unlimited International",
+      "trial": false
+    },
+    {
+      "id": 4320,
+      "attributes": {
+        "sku": "sub.huddle.custom.month",
+        "bundle": "custom_huddle",
+        "bundle_rotation": "premium"
+      },
+      "country_id": null,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 1500,
+      "price_per_unit": 0,
+      "product": "bundle",
+      "promotion_days": 0,
+      "rates": [
+        3316,
+        4078,
+        4319,
+        4082,
+        3216
+      ],
+      "recurrent_charge_type": "monthly",
+      "status": "inactive",
+      "title": "Huddle Individual Custom - $15/mo",
+      "trial": false
+    },
+    {
+      "id": 4323,
+      "attributes": {
+        "pwyc": "elite"
+      },
+      "country_id": null,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 1500,
+      "price_per_unit": 0,
+      "product": "pay_what_you_can",
+      "promotion_days": 0,
+      "rates": [],
+      "recurrent_charge_type": "monthly",
+      "status": "inactive",
+      "title": "Monthly Contribution - $15/mo",
+      "trial": false
+    },
+    {
+      "id": 4078,
+      "attributes": {
+        "max_storage_size": "10240"
+      },
+      "country_id": null,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 0,
+      "price_per_unit": 0,
+      "product": "basic_storage",
+      "promotion_days": 0,
+      "rates": null,
+      "recurrent_charge_type": "never",
+      "status": "inactive",
+      "title": "10Gb - Basic storage",
+      "trial": false,
+      "rates": []
+    },
+    {
+      "id": 4319,
+      "attributes": {
+        "softphone_countries": [
+          {
+            "id": "usa",
+            "country_id": 1,
+            "type": "all"
+          }
+        ],
+        "softphone_class_of_service": "3",
+        "softphone_mms_max": "1000",
+        "softphone": "domestic",
+        "softphone_sms_max": "2000"
+      },
+      "country_id": null,
+      "currency_code": "USD",
+      "effective_date": null,
+      "expiry_date": null,
+      "price": 0,
+      "price_per_unit": 0,
+      "product": "softphone",
+      "promotion_days": 0,
+      "rates": null,
+      "recurrent_charge_type": "never",
+      "status": "inactive",
+      "title": "Unlimited US - $0/mo",
+      "trial": false,
+      "rates": []
+    }
+  ]
+}

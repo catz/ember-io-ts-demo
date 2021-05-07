@@ -1,0 +1,26 @@
+<h3>Users</h3>
+
+<ul>
+  {{#each this.model.users as |user|}}
+    <li>
+      {{user.name}}
+    </li>
+  {{/each}}
+</ul>
+
+<h3>Products</h3>
+
+
+<ul>
+  {{#each this.model.products as |product|}}
+    <li>
+      <strong>{{product.title}}</strong> - Enabled: {{product.enabled}} 
+      {{#each product.current_rates as |rate|}}
+      <ul>
+        <li>{{rate.title}} - {{rate.displayStatus}}</li>
+      </ul>
+      {{/each}}
+      <hr>
+    </li>
+  {{/each}}
+</ul>

@@ -2,7 +2,7 @@
 
 module.exports = function (environment) {
   let ENV = {
-    modulePrefix: 'ember-io-ts',
+    modulePrefix: 'ember-io-ts-demo',
     environment,
     rootURL: '/',
     locationType: 'auto',

@@ -2,7 +2,7 @@
 
 module.exports = {
   root: true,
-  parser: 'babel-eslint',
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module',
@@ -13,6 +13,7 @@ module.exports = {
   plugins: ['ember'],
   extends: [
     'eslint:recommended',
+    'plugin:@typescript-eslint/recommended', // uses typescript-specific linting rules
     'plugin:ember/recommended',
     'plugin:prettier/recommended',
   ],
